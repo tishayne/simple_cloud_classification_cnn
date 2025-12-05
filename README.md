@@ -25,23 +25,23 @@ The workflow includes:
 
 ## 📁 Folder Structure
 
-data/
-│
-├── raw/ # Original unprocessed images
-│
-├── raindrop_clean_split/ # Manual labelling of clean and raindrop images
-│ ├── clean/ # Manually labelled images without raindrops
-│ └── raindrop/ # Manually labelled images with raindrops
-│
-├── dataset_split/ # Manual labelling of cloud types
-│ ├── clear/
-│ ├── cloudy/
-│ └── overcast/
-│
-└── dataset/ # FINAL dataset created automatically
-├── train/
-├── val/
-└── test/
+data/  
+│  
+├── raw/  # Original unprocessed images  
+│  
+├── raindrop_clean_split/  # Manual labelling of clean and raindrop images  
+│   ├── clean/  # Manually labelled images without raindrops  
+│   └── raindrop/  # Manually labelled images with raindrops  
+│  
+├── dataset_split/  # Manual labelling of cloud types  
+│   ├── clear/  
+│   ├── cloudy/  
+│   └── overcast/  
+│  
+└── dataset/  # FINAL dataset created automatically  
+    ├── train/  
+    ├── val/  
+    └── test/  
 
 
 data/
@@ -91,4 +91,5 @@ The system automatically saves the strongest model for each experiment to:
 📁 `models/best_models/`
 
 This avoids retraining and allows consistent comparison across fine-tuning strategies.
+
 
