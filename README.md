@@ -34,30 +34,14 @@ data/
 │   └── raindrop/  # Manually labelled images with raindrops  
 │  
 ├── dataset_split/  # Manual labelling of cloud types  
-│   ├── clear/  
-│   ├── cloudy/  
-│   └── overcast/  
+│   ├── clear/   # Manually labelled images
+│   ├── cloudy/   # Manually labelled images
+│   └── overcast/   # Manually labelled images
 │  
 └── dataset/  # FINAL dataset created automatically  
     ├── train/  
     ├── val/  
     └── test/  
-
-
-data/
-├─ raw/
-├─ raindrop_clean_split/
-│  ├─ clean/
-│  └─ raindrop/
-├─ dataset_split/
-│  ├─ clear/
-│  ├─ cloudy/
-│  └─ overcast/
-└─ dataset/
-   ├─ train/
-   ├─ val/
-   └─ test/
-
 
 ---
 
@@ -91,5 +75,6 @@ The system automatically saves the strongest model for each experiment to:
 📁 `models/best_models/`
 
 This avoids retraining and allows consistent comparison across fine-tuning strategies.
+
 
 
