@@ -10,6 +10,10 @@ The model was trained using transfer learning and further fine-tuned by unfreezi
 Fine-tuning **44 layers** produced the strongest performance:  
 ➡ **93.86% Test Accuracy**
 
+### Trained Models
+This is the Google Drive link to access the .keras models. 
+https://drive.google.com/drive/folders/1cAxTCSajI1Wmn8Z9HSUjbntZUzjFn7P1?usp=sharing
+
 ---
 
 ## Project Overview
@@ -75,6 +79,7 @@ The system automatically saves the strongest model for each experiment to:
 📁 `models/best_models/`
 
 This avoids retraining and allows consistent comparison across fine-tuning strategies.
+
 
 
 
