@@ -2,9 +2,9 @@
 
 This project aims to classify sky images into **Clear**, **Cloudy**, and **Overcast** using a Convolutional Neural Network (CNN) with **Xception** as the base model.  
 The model was trained using transfer learning and further fine-tuned by unfreezing:
-- the top **1/3 of the layers**
-- the top **2/3 of the layers**
-- **all layers**
+- the top **1/3 of the layers** (44 layers)
+- the top **2/3 of the layers** (88 layers)
+- **all layers** (132 layers)
 
 ### ✨ Key Result  
 Fine-tuning **44 layers** produced the strongest performance:  
@@ -75,6 +75,7 @@ The system automatically saves the strongest model for each experiment to:
 📁 `models/best_models/`
 
 This avoids retraining and allows consistent comparison across fine-tuning strategies.
+
 
 
 
