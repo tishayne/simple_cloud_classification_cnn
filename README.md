@@ -44,6 +44,21 @@ data/
 └── test/
 
 
+data/
+├─ raw/
+├─ raindrop_clean_split/
+│  ├─ clean/
+│  └─ raindrop/
+├─ dataset_split/
+│  ├─ clear/
+│  ├─ cloudy/
+│  └─ overcast/
+└─ dataset/
+   ├─ train/
+   ├─ val/
+   └─ test/
+
+
 ---
 
 ## 🧠 Two Manual Labelling Steps (Important!)
@@ -76,3 +91,4 @@ The system automatically saves the strongest model for each experiment to:
 📁 `models/best_models/`
 
 This avoids retraining and allows consistent comparison across fine-tuning strategies.
+
