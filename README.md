@@ -60,8 +60,14 @@ data/
 > **Do not manually modify anything inside `/dataset/`** — this folder is created automatically and overwritten when running the split notebook.
 
 ---
+## Load Model without Retraining
 
-##  With Retraining From Scratch use this order:
+| Step | Notebook | Purpose |
+|------|----------|---------|
+| 1 | `00_predict_raw.ipynb` | Follow steps and directory paths in the file to test a custom dataset in a trained model |
+
+
+##  Load Model With Retraining From Scratch:
 
 | Step | Notebook | Purpose |
 |------|----------|---------|
@@ -80,6 +86,7 @@ The system automatically saves the strongest model for each experiment to:
 📁 `models/best_models/`
 
 This avoids retraining and allows consistent comparison across fine-tuning strategies.
+
 
 
 
